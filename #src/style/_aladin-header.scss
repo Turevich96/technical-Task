@@ -1,0 +1,142 @@
+.section-feedback{
+    font-family: Plumb;
+}
+.header{
+    width: 100vw;
+    &__top{
+        width: 100vw;
+        height: 41px;
+        background-color: $bg-header;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+
+           @include mobile-w{
+            display: none;
+           }
+
+           @include mobile{
+            display: none;
+           }
+
+        &__content{
+            display: flex;
+            align-items: center;
+            height: 100%;
+            &__address{
+                margin-right: 25px;
+                display: flex;
+                align-items: center;
+                &__img{
+                    margin-right: 4px;
+                }
+            }
+            &__schedule{
+                margin-left: 15px;
+                display: flex;
+                &__img{
+                    margin-right: 4px;
+                }
+            }
+            &__language{
+                position: absolute;
+                right: 0px;
+                &__ua{
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
+.center{
+    width: 85%;
+    max-width:1447px;
+    margin: auto;
+   position: relative;
+
+   @include mobile-w{
+    width: 92%;
+   }
+   @include mobile{
+    width: 92%;
+   }
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-bottom{
+    width: 100vw;
+    height: 115px;
+    padding-top: 28px;
+       @include mobile-w{
+        height: 72px;
+        padding-top: 21px;
+       }
+       @include mobile{
+        height: 72px;
+        padding-top: 21px;
+       }
+    &__content{
+            &__social{
+                height: 28px;
+                position: absolute;
+                right: 0px;
+                display: flex;
+
+                @include mobile-w{
+                    display: none;
+                   }
+                   @include mobile{
+                    display: none;
+                   }
+        
+                &__link{
+                    &__fb{
+                        background-color: #3B5998;
+                    }
+                    &__instagram{
+                        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+                    }
+                    &__tiktok{
+                        background-color: black;
+                    }
+                    &__youtube{
+                        background-color: #E62117;
+                    }
+                }
+            }
+            &__language{
+                display: none;
+                @include mobile-w{
+                    display: block;
+                    color: black;
+                    position: absolute;
+                    right: 20px;
+                    font-weight: bold;
+                    font-size: 19px;
+                    line-height: 21px;
+                }
+                @include mobile{
+                    display: block;
+                    color: black;
+                    position: absolute;
+                    right: 20px;
+                    font-weight: bold;
+                    font-size: 19px;
+                    line-height: 21px;
+                }
+            }
+    }
+}
+.social{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
