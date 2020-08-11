@@ -16,7 +16,8 @@
                 width: 101.5%;   
             }
             @include tablet {
-                width: 101.5%;   
+                width: 101.5%; 
+                padding-top: 107px;  
             }
             @include  desktop {
                 width: 101.5%;   
@@ -26,12 +27,13 @@
                 padding-left: 35px;  
                 height: 410px;
                 width: 100%;
-                
+                padding-top: 107px; 
             }
             @include mobile{
                 padding-left: 35px;  
                 height: 410px;
                 width: 100%;
+                padding-top: 107px; 
                 
             }
             @media (max-width:315px) {

@@ -359,6 +359,7 @@ table {
     padding-left: 35px;
     height: 410px;
     width: 100%;
+    padding-top: 107px;
   }
 
   .section-feedback__content__banner__title {
@@ -417,6 +418,7 @@ table {
     padding-left: 35px;
     height: 410px;
     width: 100%;
+    padding-top: 107px;
   }
 
   .section-feedback__content__banner__title {
@@ -438,5 +440,6 @@ table {
 @media (min-width: 768px) and (max-width: 1023px) {
   .section-feedback__content__banner {
     width: 101.5%;
+    padding-top: 107px;
   }
 }
