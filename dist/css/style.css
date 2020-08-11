@@ -59,6 +59,10 @@ q {
   quotes: none;
 }
 
+html {
+  overflow: hidden;
+}
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -92,7 +96,6 @@ table {
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -268,7 +271,6 @@ table {
 .section-feedback__content__banner {
   background-image: url(../assets/img/bg-feedback.jpg);
   background-repeat: no-repeat;
-  width: 101.5%;
   height: 457px;
   background-size: cover;
   background-position: center;
@@ -319,6 +321,12 @@ table {
   width: 277px;
 }
 
+@media (min-width: 1366px) {
+  .section-feedback__content__banner {
+    width: 101.5%;
+  }
+}
+
 @media (max-width: 575px) {
   .header__top {
     display: none;
@@ -350,6 +358,7 @@ table {
   .section-feedback__content__banner {
     padding-left: 35px;
     height: 410px;
+    width: 100%;
   }
 
   .section-feedback__content__banner__title {
@@ -372,6 +381,7 @@ table {
   .section-feedback__content__banner {
     padding-left: 20px;
     height: 410px;
+    width: 100%;
   }
 }
 
@@ -406,6 +416,7 @@ table {
   .section-feedback__content__banner {
     padding-left: 35px;
     height: 410px;
+    width: 100%;
   }
 
   .section-feedback__content__banner__title {
@@ -415,5 +426,17 @@ table {
 
   .section-feedback__footer {
     display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  .section-feedback__content__banner {
+    width: 101.5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-feedback__content__banner {
+    width: 101.5%;
   }
 }

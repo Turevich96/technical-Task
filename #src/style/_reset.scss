@@ -29,6 +29,9 @@ ol, ul  {
 blockquote, q {
   quotes: none;
 }
+html{
+overflow: hidden;
+}
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';

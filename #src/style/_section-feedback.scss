@@ -2,27 +2,42 @@
     overflow: hidden;
     &__content{
         color: #FFFFFF;
+       
         &__banner{
             background-image: url(../assets/img/bg-feedback.jpg);
             background-repeat: no-repeat;
-            width: 101.5%;
+            
             height: 457px;
             background-size: cover;
             background-position: center;
             padding-top: 147px;
             padding-left: 81px;
+            @include laptop {
+                width: 101.5%;   
+            }
+            @include tablet {
+                width: 101.5%;   
+            }
+            @include  desktop {
+                width: 101.5%;   
+            }
 
             @include mobile-w{
                 padding-left: 35px;  
                 height: 410px;
+                width: 100%;
+                
             }
             @include mobile{
                 padding-left: 35px;  
                 height: 410px;
+                width: 100%;
+                
             }
             @media (max-width:315px) {
                 padding-left: 20px;
                 height: 410px;
+                width: 100%;
             }
 
             &__title{
