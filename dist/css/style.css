@@ -59,10 +59,6 @@ q {
   quotes: none;
 }
 
-html {
-  overflow: hidden;
-}
-
 blockquote:before,
 blockquote:after,
 q:before,
