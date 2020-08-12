@@ -1,0 +1,62 @@
+.about-shopping-mall{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 53px;
+    padding-bottom: 42px;
+    // width: 100vw;
+    &__title{
+        width: 100%;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px; 
+        margin-bottom: 53px;
+    }
+    &__text-box{
+        width: 45%;
+    }
+    &__map-box{
+        width: 55%;
+        
+        &__map{
+            height: 464px;
+        }
+        &__location{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.text-box{
+    display: flex;
+    margin-bottom: 59px;
+    &__text{
+        padding-left: 23px;
+        &__title{
+            font-weight: bold;
+            font-size: 23px;
+            line-height: 28px;
+            margin-bottom: 12px;
+        }
+        &__subtitle{
+        //   width: 409px;  
+          line-height: 30px;
+        }
+    }
+}
+
+// locatiop map 
+.header__top__content__address{
+    width: 50%;
+    margin: 0px;
+    word-wrap: normal;
+    margin-bottom: 7px;
+}
+.header__top__content__schedule{
+    width: 50%;
+    margin: 0px;
+}
+.metro{
+    margin-bottom: 57px;
+    padding-left: 25px;
+}

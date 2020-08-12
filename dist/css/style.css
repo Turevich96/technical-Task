@@ -122,7 +122,7 @@ table {
   color: white;
 }
 
-.section-feedback {
+.main-container {
   font-family: Plumb;
 }
 
@@ -315,6 +315,83 @@ table {
   font-size: 30px;
   line-height: 35px;
   width: 277px;
+}
+
+.about-shopping-mall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 53px;
+  padding-bottom: 42px;
+}
+
+.about-shopping-mall__title {
+  width: 100%;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 53px;
+}
+
+.about-shopping-mall__text-box {
+  width: 45%;
+}
+
+.about-shopping-mall__map-box {
+  width: 55%;
+}
+
+.about-shopping-mall__map-box__map {
+  height: 464px;
+}
+
+.about-shopping-mall__map-box__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.text-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 59px;
+}
+
+.text-box__text {
+  padding-left: 23px;
+}
+
+.text-box__text__title {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.text-box__text__subtitle {
+  line-height: 30px;
+}
+
+.header__top__content__address {
+  width: 50%;
+  margin: 0px;
+  word-wrap: normal;
+  margin-bottom: 7px;
+}
+
+.header__top__content__schedule {
+  width: 50%;
+  margin: 0px;
+}
+
+.metro {
+  margin-bottom: 57px;
+  padding-left: 25px;
 }
 
 @media (min-width: 1366px) {
